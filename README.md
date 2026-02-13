@@ -132,10 +132,103 @@
 ---
 
 ### Общая часть
+![Авторизация](./picture/general.jpg)
 
 ---
 
 ### Административная часть
 
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/admin.jpg" alt="Админ" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Панель администратора с внесёнными данными, полученными как через базу, так и через саму панель.</p>
+</div>
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/admin_add_stud.jpg" alt="Админ добавляет студента" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Панель администратора при внесении данных студента в поля.</p>
+</div>
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/admin_add_stud_yes.jpg" alt="Админ добавил студента" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Успешное добавление студента в систему.</p>
+</div>
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/admin_del_stud.jpg" alt="Админ удаляет студента" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Удаление студента из системы. Происходит удаление и других связанных участников.</p>
+</div>
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/admin_del_stud_yes.jpg" alt="Админ удалил студента" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Успешное удаление студента из системы.</p>
+</div>
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/admin_prepod_add.jpg" alt="Админ добавляет преподавателя" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Добавление преподавателя в систему.</p>
+</div>
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/admin_prepod_add_yes.jpg" alt="Админ добавил преподавателя" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Успешное добавление преподавателя в систему.</p>
+</div>
+
+</div>
+
+---
+
+### Преподавательская часть
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/teather.jpg" alt="Преподаватель" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Панель преподавателя при входе в систему.</p>
+</div>
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/teatch_add_estimation.jpg" alt="Преподаватель добавляет оценку студенту" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Панель преподавателя с внесёнными данными студента.</p>
+</div>
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/teatch_add_estimation_yes.jpg" alt="Преподаватель добавил оценку студенту" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Успешное добавление оценки студенту.</p>
+</div>
+
+</div>
+
+---
+
+### Студенческая часть
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+<div style="text-align: center; width: 300px;">
+    <img src="./picture/student.jpg" alt="Студент" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p>Панель студента.</p>
+</div>
+
+</div>
+
+---
+
+## Вывод
+
+Данная ИС позволяет автоматизировать процесс учёта успеваемости студентов в учебном заведении, обеспечивая разграничение доступа для различных ролей пользователей:
+
+- **Администратор** может управлять всеми участниками системы, назначать преподавателей на конкретные предметы и студентов на группы.  
+- **Преподаватель** получает доступ только к своим предметам, может выставлять и удалять оценки, обеспечивая контроль за успеваемостью.  
+- **Студент** имеет возможность просматривать свои оценки и следить за прогрессом по каждому предмету.
+
+Реализация системы на **PHP** и **MySQL** с использованием подготовленных SQL-запросов и ролевой модели обеспечивает безопасность данных и надёжное управление доступом.  
+
+Проект демонстрирует практические навыки работы с веб-технологиями, построения CRUD-систем, организации ролевого доступа и структурирования базы данных для реальных учебных сценариев.  
+
+Система может быть использована как основа для более сложных учебных или производственных приложений с учётом расширения функционала и интеграции с другими сервисами.
+
+---
 
 © 2026 Учебный проект
